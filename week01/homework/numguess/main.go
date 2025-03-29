@@ -18,7 +18,7 @@ func rule() {
 
 func random() int {
 	rand.Seed(time.Now().UnixNano())
-	num := rand.Intn(100)
+	num := rand.Intn(100) + 1
 	return num
 
 }
